@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.48150685, g: 0.23495136, b: 0.13861313, a: 1}
+  m_IndirectSpecularColor: {r: 0.47787634, g: 0.23400843, b: 0.13867444, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4606,6 +4606,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1562946170}
+    - targetCorrespondingSourceObject: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1562946172}
     - targetCorrespondingSourceObject: {fileID: 6813208794856459655, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1562946168}
@@ -4676,6 +4679,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7.2995787, y: 4.3648996, z: 6.8909793}
   m_Center: {x: 0.09223023, y: 1.4834903, z: 0.69112206}
+--- !u!114 &1562946172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562946169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171822440a36d2449b8531a67e919170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombresDeEscenas:
+  - CementeryScene
+  - MetroScene
+  - GraveScene
+  - MedievalScene
+  - TokioScene
 --- !u!64 &1574694353
 MeshCollider:
   m_ObjectHideFlags: 0
