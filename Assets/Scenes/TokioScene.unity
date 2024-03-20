@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: a24b693ab6cd1df42b05ef553f2d9445, type: 2}
+  m_AmbientIntensity: 4.66
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2c6685c6619a2f24991b26433a927b2b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -194,6 +194,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6903030507713903286, guid: ce909e3a4ba401b49bd4483371304193, type: 3}
+    - {fileID: -5539764629200458662, guid: ce909e3a4ba401b49bd4483371304193, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce909e3a4ba401b49bd4483371304193, type: 3}
@@ -422,7 +423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 139281608915711383, guid: e20d54d0a5b9bc74081156009b971336, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -258
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 139281608915711383, guid: e20d54d0a5b9bc74081156009b971336, type: 3}
       propertyPath: m_LocalRotation.w
@@ -458,7 +459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 139281609652209528, guid: e20d54d0a5b9bc74081156009b971336, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -222
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 139281609652209528, guid: e20d54d0a5b9bc74081156009b971336, type: 3}
       propertyPath: m_LocalPosition.z
@@ -688,6 +689,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1486848914}
+    - targetCorrespondingSourceObject: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486848918}
     - targetCorrespondingSourceObject: {fileID: 6813208794856459655, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       insertIndex: -1
       addedObject: {fileID: 250184010}
@@ -709,12 +713,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171822440a36d2449b8531a67e919170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombresDeEscenas:
-  - CementeryScene
-  - MetroScene
-  - GraveScene
-  - MedievalScene
-  - TokioScene
+--- !u!65 &1486848918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486848913}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.893617, y: 2.5940022, z: 12.8853855}
+  m_Center: {x: -0.29597655, y: 0.5980623, z: 0.17762451}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

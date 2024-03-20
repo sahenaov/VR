@@ -13,5 +13,6 @@ public class correctCenter : MonoBehaviour
     {
         CharacterController character = this.GetComponent<CharacterController>();
         character.center = Vector3.zero;
+        transform.position = new Vector3(transform.position.x, transform.position.y + 2f, transform.position.z);
     }
 }

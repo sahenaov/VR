@@ -133,23 +133,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6099
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6099
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6099
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.05
+      value: 2.99
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.76
+      value: 1.81
       objectReference: {fileID: 0}
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalPosition.z
@@ -182,6 +182,10 @@ PrefabInstance:
     - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 419305800515105285, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7478731271839673279, guid: 4d3c8045dd8857a4b8d34c2361c61045, type: 3}
       propertyPath: m_Name
@@ -230,7 +234,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -271,12 +275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171822440a36d2449b8531a67e919170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombresDeEscenas:
-  - CementeryScene
-  - MetroScene
-  - GraveScene
-  - MedievalScene
-  - TokioScene
 --- !u!1001 &48276858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -291,7 +289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 139281608915711383, guid: e20d54d0a5b9bc74081156009b971336, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.58
+      value: -1.44
       objectReference: {fileID: 0}
     - target: {fileID: 139281608915711383, guid: e20d54d0a5b9bc74081156009b971336, type: 3}
       propertyPath: m_LocalPosition.y
@@ -462,15 +460,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 102fdbede06c1f349b6f445423321efa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.43
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 102fdbede06c1f349b6f445423321efa, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.43
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 102fdbede06c1f349b6f445423321efa, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.43
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 102fdbede06c1f349b6f445423321efa, type: 3}
       propertyPath: m_LocalPosition.x
